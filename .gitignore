@@ -1,0 +1,22 @@
+# 模型文件
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pickle
+*.caffemodel
+*.pb
+*.bin
+
+# 所有 JSON 文件（你要的：全部忽略）
+*.json
+
+# PyCharm 配置（你之前一直提示）
+.idea/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo

@@ -1,0 +1,8 @@
+python train.py --data_root dataset --pretrained /home/ej/桌面/项目总览/其他项目/DeepLabV3Plus-Pytorch-master/models/best_deeplabv3plus_mobilenet_cityscapes_os16.pth --epochs 300 --img_size 1024 --weight_decay 0.00010
+
+
+
+
+python predict_test.py --checkpoint /home/ej/桌面/翼界项目总览/其他项目/DeepLabV3Plus-Pytorch-master/checkpoints/best_model.pth --input /home/ej/桌面/翼界项目总览/其他项目/DeepLabV3Plus-Pytorch-master/_tool/test_images --output_dir /home/ej/桌面/翼界项目总览/其他项目/DeepLabV3Plus-Pytorch-master/_tool/test
+
+
